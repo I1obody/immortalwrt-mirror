@@ -8,9 +8,10 @@ A complete mirror of all **ImmortalWrt 25.12.2** Alpine `.apk` packages for the 
 |----------|----------|
 | base     | 597      |
 | packages | 4635     |
-| **Total** | **5232** |
+| target kmods/firmware (mediatek/filogic) | 99 |
+| **Total** | **5331** |
 
-All files are standard Alpine `.apk` (ADB format), ready for `apk add`.
+All files are standard Alpine `.apk` (ADB format), ready for `apk add`. Includes kernel modules (`kmod-*`, `iptables-mod-*`) and firmware blobs specific to the MediaTek Filogic target.
 
 ## How to use
 
@@ -37,14 +38,14 @@ apk add iptables-mod-nfqueue
 
 ```
 aarch64_cortex-a53/
-├── APKINDEX          # plain-text package index (all 5232 packages)
+├── APKINDEX          # plain-text package index (all 5331 packages)
 ├── APKINDEX.tar.gz   # compressed index (what apk fetches)
 └── *.apk             # all package files
 ```
 
 ## Notes
 
-- Built from `https://downloads.immortalwrt.org/releases/25.12.2/packages/aarch64_cortex-a53/`
-- Only the `base` and `packages` categories are included (covers ~all common packages).
+- Built from `https://downloads.immortalwrt.org/releases/25.12.2/packages/aarch64_cortex-a53/` and `.../targets/mediatek/filogic/packages/`
+- Includes the `base`, `packages` categories plus target-specific kernel modules and firmware for MediaTek Filogic.
 - The `luci`, `routing`, and `telephony` categories are not mirrored here — add them separately if needed.
 - Packages are unsigned by ImmortalWrt's key; if you get an "UNTRUSTED signature" error, use `apk add --allow-untrusted <pkg>` or import the signing key first.
