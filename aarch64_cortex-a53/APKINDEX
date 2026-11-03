@@ -58780,3 +58780,1070 @@ L MIT
 o feeds/packages/feeds/packages/net/ztdns
 m Oskari Rauta <oskari.rauta@gmail.com>
 U https://github.com/uxbh/ztdns
+P:aic8800-pcie-firmware
+V:2026.03.10~89f865b8-r4
+A:aarch64_cortex-a53
+S:685030
+I:1019048
+T:Aicsemi aic8800 PCIe firmware
+D libc
+p aic8800-pcie-firmware-any
+o feeds/base/kernel/aic8800
+P:aic8800-sdio-firmware
+V:2026.03.10~89f865b8-r4
+A:aarch64_cortex-a53
+S:3342429
+I:5089762
+T:Aicsemi aic8800 SDIO firmware
+D libc
+p aic8800-sdio-firmware-any
+o feeds/base/kernel/aic8800
+P:aic8800-usb-firmware
+V:2026.03.10~89f865b8-r4
+A:aarch64_cortex-a53
+S:4288173
+I:6642508
+T:Aicsemi aic8800 USB firmware
+D libc
+p aic8800-usb-firmware-any
+o feeds/base/kernel/aic8800
+P:arptables-nft
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2950
+I:8685
+T:ARP firewall administration tool nft
+D kmod-arptables kmod-nft-arp libc xtables-nft
+p arptables=1.8.10-r3 arptables-nft-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:atm-aread
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2561
+I:8170
+T:Linux ATM tool aread.
+D libc linux-atm
+p atm-aread-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-atmaddr
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2759
+I:8173
+T:Linux ATM tool atmaddr.
+D libc linux-atm
+p atm-atmaddr-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-atmdiag
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2381
+I:4122
+T:Linux ATM tool atmdiag.
+D libc linux-atm
+p atm-atmdiag-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-atmdump
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:3348
+I:8218
+T:Linux ATM tool atmdump.
+D libc linux-atm
+p atm-atmdump-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-atmloop
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2955
+I:8173
+T:Linux ATM tool atmloop.
+D libc linux-atm
+p atm-atmloop-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-atmsigd
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:77186
+I:237123
+T:Linux ATM tool atmsigd.
+D libc linux-atm
+p atm-atmsigd-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-atmswitch
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:3100
+I:8174
+T:Linux ATM tool atmswitch.
+D libc linux-atm
+p atm-atmswitch-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-atmtcp
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:9060
+I:20612
+T:Linux ATM tool atmtcp.
+D libc linux-atm
+p atm-atmtcp-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-awrite
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2341
+I:8171
+T:Linux ATM tool awrite.
+D libc linux-atm
+p atm-awrite-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-bus
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:20886
+I:45327
+T:Linux ATM tool bus.
+D libc linux-atm
+p atm-bus-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-debug-tools
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:252077
+I:730565
+T:This package contains the Linux ATM debugging tools.
+D libc linux-atm
+p atm-debug-tools-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-diagnostics
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:6662
+I:28681
+T:This package contains the Linux ATM diagnostics.
+D libc linux-atm
+p atm-diagnostics-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-esi
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2492
+I:8169
+T:Linux ATM tool esi.
+D libc linux-atm
+p atm-esi-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-ilmid
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:26123
+I:63225
+T:Linux ATM tool ilmid.
+D libc linux-atm
+p atm-ilmid-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-ilmidiag
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2738
+I:8174
+T:Linux ATM tool ilmidiag.
+D libc linux-atm
+p atm-ilmidiag-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-lecs
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:11416
+I:24608
+T:Linux ATM tool lecs.
+D libc linux-atm
+p atm-lecs-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-les
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:24770
+I:53967
+T:Linux ATM tool les.
+D libc linux-atm
+p atm-les-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-mpcd
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:15637
+I:32799
+T:Linux ATM tool mpcd.
+D libc linux-atm
+p atm-mpcd-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-saaldump
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:26789
+I:95949
+T:Linux ATM tool saaldump.
+D libc linux-atm
+p atm-saaldump-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-sonetdiag
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2875
+I:8340
+T:Linux ATM tool sonetdiag.
+D libc linux-atm
+p atm-sonetdiag-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-svc_recv
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2950
+I:8173
+T:Linux ATM tool svc_recv.
+D libc linux-atm
+p atm-svc_recv-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-svc_send
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:2651
+I:8173
+T:Linux ATM tool svc_send.
+D libc linux-atm
+p atm-svc_send-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-tools
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:20475
+I:45097
+T:This package contains the Linux ATM tools.
+D libc linux-atm
+p atm-tools-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-ttcp_atm
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:8273
+I:17616
+T:Linux ATM tool ttcp_atm.
+D libc linux-atm
+p atm-ttcp_atm-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:atm-zeppelin
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:22473
+I:45109
+T:Linux ATM tool zeppelin.
+D libc linux-atm
+p atm-zeppelin-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:autocore
+V:42
+A:aarch64_cortex-a53
+S:2134
+I:3777
+T:auto core loadbalance script.
+D libc
+p autocore-any
+o feeds/base/emortal/autocore
+P:automount
+V:10
+A:noarch
+S:1470
+I:1085
+T:Mount autoconfig hotplug script.
+D block-mount e2fsprogs kmod-fs-exfat kmod-fs-ext4 kmod-fs-vfat kmod-usb-storage kmod-usb-storage-extras kmod-usb-storage-uas libc ntfs3-mount
+p automount-any
+o feeds/base/emortal/automount
+m Lean
+P:base-files
+V:1950~0c4cd0f9920a
+A:aarch64_cortex-a53
+S:73494
+I:244114
+T:This package contains a base filesystem and system scripts for OpenWrt.
+D busybox fstools fwtool jsonfilter libc netifd openwrt-keyring procd procd-seccomp ubi-utils usign
+p base-files-any
+L GPL-2.0
+o feeds/base/base-files
+U http://openwrt.org/
+P:block-mount
+V:2026.05.23~16718b6e-r1
+A:aarch64_cortex-a53
+S:31270
+I:70486
+T:Block device mounting and checking
+D fstools libblobmsg-json20260213 libc libjson-c5 libubox20260213 libuci20250120 ubox
+p block-mount-any
+L GPL-2.0
+o feeds/base/system/fstools
+m John Crispin <john@phrozen.org>
+P:blockd
+V:2026.05.23~16718b6e-r1
+A:aarch64_cortex-a53
+S:7637
+I:17086
+T:Block device automounting
+D block-mount kmod-fs-autofs4 libblobmsg-json20260213 libc libjson-c5 libubus20251202
+p blockd-any
+L GPL-2.0
+o feeds/base/system/fstools
+m John Crispin <john@phrozen.org>
+P:br2684ctl
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:5898
+I:14293
+T:Support for AAL5 encapsulation (RFC-1483/RFC-2684) over ATM.
+D libc linux-atm
+p br2684ctl-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:comgt
+V:0.32-r36
+A:aarch64_cortex-a53
+S:22167
+I:52249
+D chat libc
+p comgt-any
+L GPL-2.0+
+o feeds/base/network/utils/comgt
+m Felix Fietkau <nbd@nbd.name>
+U http://manpages.ubuntu.com/manpages/trusty/man1/comgt.1.html
+P:comgt-directip
+V:0.32-r36
+A:aarch64_cortex-a53
+S:2312
+I:4341
+T:Sierra Wireless Direct-IP support
+D comgt kmod-usb-net kmod-usb-net-sierrawireless kmod-usb-serial kmod-usb-serial-sierrawireless libc
+p comgt-directip-any
+L GPL-2.0+
+o feeds/base/network/utils/comgt
+m Felix Fietkau <nbd@nbd.name>
+P:comgt-ncm
+V:0.32-r36
+A:aarch64_cortex-a53
+S:3690
+I:11740
+T:NCM 3G/4G Support
+D comgt kmod-usb-net-huawei-cdc-ncm kmod-usb-serial-option libc wwan
+p comgt-ncm-any
+L GPL-2.0+
+o feeds/base/network/utils/comgt
+m Felix Fietkau <nbd@nbd.name>
+P:dropbear
+V:2025.89-r3
+A:aarch64_cortex-a53
+S:126549
+I:249658
+T:A small SSH2 server/client designed for small memory environments.
+D libc
+p dropbear-any
+L MIT
+o feeds/base/network/services/dropbear
+U https://matt.ucc.asn.au/dropbear/
+P:dropbearconvert
+V:2025.89-r3
+A:aarch64_cortex-a53
+S:42303
+I:82019
+T:Utility for converting SSH keys
+D libc
+p dropbearconvert-any
+L MIT
+o feeds/base/network/services/dropbear
+U https://matt.ucc.asn.au/dropbear/
+P:ebtables-nft
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:28025
+I:113575
+T:Bridge firewall administration tool nft
+D kmod-ebtables kmod-nft-bridge libc xtables-nft
+p ebtables=1.8.10-r3 ebtables-nft-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:fitblk
+V:2
+A:aarch64_cortex-a53
+S:2662
+I:5864
+T:Release uImage.FIT block devices using ioctl.
+D fit-check-sign libc
+p fitblk-any
+L GPL-2.0-only
+o feeds/base/utils/fitblk
+m Daniel Golle <daniel@makrotopia.org>
+P:fstools
+V:2026.05.23~16718b6e-r1
+A:aarch64_cortex-a53
+S:21353
+I:57864
+T:OpenWrt filesystem tools
+D libc ubi-utils ubox
+p fstools-any
+L GPL-2.0
+o feeds/base/system/fstools
+m John Crispin <john@phrozen.org>
+P:fwtool
+V:2025.10.03~04cd252e-r1
+A:aarch64_cortex-a53
+S:4573
+I:8220
+T:Utility for appending and extracting firmware metadata and signatures
+D libc
+p fwtool-any
+L GPL-2.0
+o feeds/base/system/fwtool
+m Felix Fietkau <nbd@nbd.name>
+P:ip6tables-extra
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:11895
+I:54459
+T:iptables header matching modules for IPv6
+D kmod-ip6tables-extra libc libxtables12
+p ip6tables-extra-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:ip6tables-mod-nat
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2278
+I:8552
+T:iptables extensions for IPv6-NAT targets.
+D kmod-ipt-nat6 libc libxtables12
+p ip6tables-mod-nat-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:ip6tables-nft
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:825
+I:447
+D kmod-ip6tables libc xtables-nft
+p ip6tables=1.8.10-r3 ip6tables-nft-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:ip6tables-zz-legacy
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:826
+I:368
+T:IPv6 firewall administration tool
+D kmod-ip6tables libc xtables-legacy
+p ip6tables=1.8.10-r3 ip6tables-legacy=1.8.10-r3 ip6tables-zz-legacy-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-checksum
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:1810
+I:4278
+T:iptables extension for the CHECKSUM calculation target
+D kmod-ipt-checksum libc libxtables12
+p iptables-mod-checksum-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-cluster
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:3028
+I:8381
+D kmod-ipt-cluster libc libxtables12
+p iptables-mod-cluster-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-conntrack-extra
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:12902
+I:52034
+D kmod-ipt-conntrack-extra libc libxtables12
+p iptables-mod-conntrack-extra-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-extra
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:10092
+I:42861
+D kmod-ipt-extra libc libxtables12
+p iptables-mod-extra-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-filter
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:5581
+I:17125
+D kmod-ipt-filter libc libxtables12
+p iptables-mod-filter-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-hashlimit
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:8620
+I:26023
+T:'iptables extensions for hashlimit matching Matches: - hashlimit'
+D kmod-ipt-hashlimit libc libxtables12
+p iptables-mod-hashlimit-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-ipopt
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:15535
+I:85486
+D kmod-ipt-ipopt libc libxtables12
+p iptables-mod-ipopt-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-iprange
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:3919
+I:12861
+T:'iptables extensions for matching ip ranges. Matches: - iprange'
+D kmod-ipt-iprange libc libxtables12
+p iptables-mod-iprange-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-ipsec
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:6412
+I:21230
+T:'iptables extensions for matching ipsec traffic. Matches: - ah - esp - policy'
+D kmod-ipt-ipsec libc libxtables12
+p iptables-mod-ipsec-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-led
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2442
+I:8369
+T:'iptables extension for triggering a LED. Targets: - LED'
+D kmod-ipt-led libc libxtables12
+p iptables-mod-led-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-nat-extra
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2969
+I:8555
+T:'iptables extensions for extra NAT targets. Targets: - MIRROR - NETMAP'
+D kmod-ipt-nat-extra libc libxtables12
+p iptables-mod-nat-extra-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-nflog
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2710
+I:8386
+D kmod-ipt-nflog kmod-nfnetlink-log libc libxtables12
+p iptables-mod-nflog-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-nfqueue
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:3113
+I:8981
+D kmod-ipt-nfqueue kmod-nfnetlink-queue libc libxtables12
+p iptables-mod-nfqueue-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-physdev
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2421
+I:8373
+T:The iptables physdev match.
+D kmod-ipt-physdev libc libxtables12
+p iptables-mod-physdev-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-rpfilter
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2366
+I:4286
+D kmod-ipt-rpfilter libc libxtables12
+p iptables-mod-rpfilter-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-socket
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2332
+I:8948
+T:'Socket match iptables extensions. Matches: - socket'
+D kmod-ipt-socket libc libxtables12
+p iptables-mod-socket-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-tee
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2374
+I:8577
+T:'TEE iptables extensions. Targets: - TEE'
+D kmod-ipt-tee libc libxtables12
+p iptables-mod-tee-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-tproxy
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:2402
+I:8772
+T:'Transparent proxy iptables extensions. Targets: - TPROXY'
+D kmod-ipt-tproxy libc libxtables12
+p iptables-mod-tproxy-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-trace
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:1608
+I:4283
+T:'iptables extension for TRACE target Includes: - libxt_TRACE'
+D kmod-ipt-debug libc libxtables12
+p iptables-mod-trace-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-mod-u32
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:3159
+I:8369
+T:'U32 iptables extensions. Matches: - u32'
+D kmod-ipt-u32 libc libxtables12
+p iptables-mod-u32-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-nft
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:831
+I:438
+D kmod-ipt-core libc xtables-nft
+p iptables=1.8.10-r3 iptables-nft-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:iptables-zz-legacy
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:976
+I:361
+D libc xtables-legacy
+p iptables=1.8.10-r3 iptables-legacy=1.8.10-r3 iptables-zz-legacy-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:jool-tools-netfilter
+V:4.1.15-r1
+A:aarch64_cortex-a53
+S:161020
+I:400768
+D ethtool kmod-jool-netfilter libc libnl-genl200 libnl200
+p jool-tools-netfilter-any
+L GPL-2.0-only
+o feeds/packages/feeds/packages/net/jool
+U https://nicmx.github.io/Jool/
+P:kernel
+V:6.12.103~b5b7729ffbba3ecdd83f339de8fadfb8-r1
+A:aarch64_cortex-a53
+S:4711
+I:17200
+T:Virtual kernel package
+D libc
+p kernel-any
+L GPL-2.0-only
+o feeds/base/kernel/linux
+U http://www.kernel.org/
+P:kselftests-bpf
+V:6.12.103-r1
+A:aarch64_cortex-a53
+S:253533
+I:19654734
+T:kselftests-bpf is the Linux kernel BPF test suite
+D libc libelf1 libpcap1 libpthread librt zlib
+p kselftests-bpf-any
+o feeds/base/devel/kselftests-bpf
+m Tony Ambardar <itugrok@yahoo.com>
+U http://www.kernel.org
+P:libatomic1
+V:14.3.0-r5
+A:aarch64_cortex-a53
+S:7797
+I:65583
+T:Atomic support library
+D libgcc1
+p libatomic libatomic-any
+L GPL-3.0-with-GCC-exception
+o feeds/base/libs/toolchain
+m Felix Fietkau <nbd@nbd.name>
+U http://gcc.gnu.org/
+P:libc
+V:1.2.5-r5
+A:aarch64_cortex-a53
+S:297299
+I:590904
+T:C library
+D libgcc1
+p libc-any
+L GPL-3.0-with-GCC-exception
+o feeds/base/libs/toolchain
+m Felix Fietkau <nbd@nbd.name>
+U http://www.musl-libc.org/
+P:libgcc1
+V:14.3.0-r5
+A:aarch64_cortex-a53
+S:50219
+I:131107
+T:GCC support library
+p libgcc libgcc-any
+L GPL-3.0-with-GCC-exception
+o feeds/base/libs/toolchain
+m Felix Fietkau <nbd@nbd.name>
+U http://gcc.gnu.org/
+P:libip4tc2
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:11567
+I:25156
+T:IPv4 firewall - shared libiptc library
+D libc
+p libip4tc libip4tc-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:libip6tc2
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:11794
+I:25156
+T:IPv6 firewall - shared libiptc library
+D libc
+p libip6tc libip6tc-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:libiptext-nft0
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:3470
+I:12497
+T:IPv4/IPv6 firewall - shared libiptext nft library
+D libc libxtables12
+p libiptext-nft libiptext-nft-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:libiptext0
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:36255
+I:107257
+T:IPv4 firewall - shared libiptext library
+D libc libxtables12
+p libiptext libiptext-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:libiptext6-0
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:4682
+I:12665
+T:IPv6 firewall - shared libiptext library
+D libc libxtables12
+p libiptext6 libiptext6-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:libpthread
+V:1.2.5-r5
+A:aarch64_cortex-a53
+S:646
+I:1
+T:POSIX thread library
+D libgcc1
+p libpthread-any
+L GPL-3.0-with-GCC-exception
+o feeds/base/libs/toolchain
+m Felix Fietkau <nbd@nbd.name>
+U http://www.musl-libc.org/
+P:librt
+V:1.2.5-r5
+A:aarch64_cortex-a53
+S:657
+I:1
+T:POSIX.1b RealTime extension library
+D libpthread
+p librt-any
+L GPL-3.0-with-GCC-exception
+o feeds/base/libs/toolchain
+m Felix Fietkau <nbd@nbd.name>
+U http://www.musl-libc.org/
+P:libstdcpp6
+V:14.3.0-r5
+A:aarch64_cortex-a53
+S:643451
+I:2097632
+T:GNU Standard C++ Library v3
+p libstdcpp libstdcpp-any
+L GPL-3.0-with-GCC-exception
+o feeds/base/libs/toolchain
+m Felix Fietkau <nbd@nbd.name>
+U http://gcc.gnu.org/
+P:libxtables12
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:23663
+I:53316
+T:IPv4/IPv6 firewall - shared xtables library
+D libc
+p libxtables libxtables-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:linux-atm
+V:2.5.2-r8
+A:aarch64_cortex-a53
+S:17648
+I:37142
+T:This package contains a library for accessing the Linux ATM subsystem.
+D libc
+p linux-atm-any
+L GPL-2.0+
+o feeds/base/network/utils/linux-atm
+U http://linux-atm.sourceforge.net/
+P:mtd
+V:27
+A:aarch64_cortex-a53
+S:12847
+I:28701
+D libc libubox20260213
+p mtd-any
+L GPL-2.0+
+o feeds/base/system/mtd
+P:nand-utils
+V:2.3.0-r1
+A:aarch64_cortex-a53
+S:55459
+I:163910
+T:Utilities for NAND devices.
+D libc
+p nand-utils-any
+L GPLv2
+o feeds/base/utils/mtd-utils
+m John Crispin <john@phrozen.org>
+U http://www.linux-mtd.infradead.org/
+P:ntfs3-mount
+V:10
+A:noarch
+S:715
+I:65
+T:NTFS mount script for Paragon NTFS3 driver
+D kmod-fs-ntfs3 libc
+p ntfs3-mount-any
+o feeds/base/emortal/automount
+P:perf
+V:6.12.103-r7
+A:aarch64_cortex-a53
+S:1912187
+I:4823729
+T:perf is the Linux performance monitoring tool
+D libbfd libc libdw1 libelf1 libopcodes libpthread librt libtraceevent0 objdump
+p perf-any
+o feeds/base/devel/perf
+m Felix Fietkau <nbd@nbd.name>
+U http://www.kernel.org
+P:qosify
+V:2024.09.20~1501e093-r1
+A:aarch64_cortex-a53
+S:27972
+I:67535
+T:A simple QoS solution based eBPF + CAKE
+D kmod-ifb kmod-sched-bpf kmod-sched-cake libbpf1 libc libnl-tiny1 libubox20260213 libubus20251202 tc
+p qosify-any
+L GPL-2.0
+o feeds/base/network/config/qosify
+m Felix Fietkau <nbd@nbd.name>
+P:snapshot-tool
+V:2026.05.23~16718b6e-r1
+A:aarch64_cortex-a53
+S:4154
+I:9849
+T:rootfs snapshoting tool
+D fstools libc libubox20260213
+p snapshot-tool-any
+L GPL-2.0
+o feeds/base/system/fstools
+m John Crispin <john@phrozen.org>
+P:ubi-utils
+V:2.3.0-r1
+A:aarch64_cortex-a53
+S:88755
+I:283943
+T:Utilities for manipulating memory technology devices.
+D libc
+p ubi-utils-any
+L GPLv2
+o feeds/base/utils/mtd-utils
+m John Crispin <john@phrozen.org>
+U http://www.linux-mtd.infradead.org/
+P:uboot-envtools
+V:2025.10-r2
+A:aarch64_cortex-a53
+S:17440
+I:37696
+T:This package includes tools to read and modify U-Boot bootloader environment.
+D libc
+p uboot-envtools-any
+L GPL-2.0 GPL-2.0+
+o feeds/base/boot/uboot-tools
+U http://www.denx.de/wiki/U-Boot
+P:umbim
+V:2025.10.04~2939b7d0-r1
+A:aarch64_cortex-a53
+S:15355
+I:42645
+D kmod-usb-net kmod-usb-net-cdc-mbim libc libubox20260213 wwan
+p umbim-any
+L GPL-2.0
+o feeds/base/network/utils/umbim
+m John Crispin <john@phrozen.org>
+P:uqmi
+V:2025.07.30~7914da43-r2
+A:aarch64_cortex-a53
+S:58998
+I:158292
+D kmod-usb-net kmod-usb-net-qmi-wwan libblobmsg-json20260213 libc libubox20260213 wwan
+p uqmi-any
+L GPL-2.0
+o feeds/base/network/utils/uqmi
+m Matti Laakso <malaakso@elisanet.fi>
+P:xtables-legacy
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:25876
+I:64048
+T:IP firewall administration tool
+D kmod-ipt-core libc libip4tc2 libip6tc2 libiptext0 libiptext6-0 libxtables12
+p xtables-legacy-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:xtables-nft
+V:1.8.10-r3
+A:aarch64_cortex-a53
+S:79130
+I:185175
+T:IP firewall administration tool nft
+D kmod-nft-compat libc libiptext-nft0 libiptext0 libiptext6-0 libnftnl11
+p xtables-nft-any
+L GPL-2.0
+o feeds/base/network/utils/iptables
+U https://netfilter.org/
+P:yafut
+V:2025.02.18~e342c939-r1
+A:aarch64_cortex-a53
+S:67171
+I:139322
+T:A program for copying files from/to Yaffs file systems from userspace.
+D libc
+p yafut-any
+L GPL-2.0
+o feeds/base/utils/yafut
